@@ -1,7 +1,7 @@
 name: Testing with Github actions
 on: [push]
 jobs:
-  Build polls app:
+  Build:
     runs-on: ubuntu-latest
     steps:
       # Checkout the GitHub repo
