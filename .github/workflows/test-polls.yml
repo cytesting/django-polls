@@ -21,4 +21,4 @@ jobs:
 
       # Run test
       - name: Test polls app
-        run: python manage.py test polls
+        run: pytest -vv
